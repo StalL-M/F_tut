@@ -38,11 +38,11 @@ body {
 	min-height: 100%;
 	overflow: hidden;
 }
-
 ._container {
 	max-width: 1046px;
 	margin: 0px auto;
 }
+
 /*-----Hat-------------------------------------------------------*/
 .header {
 	position: absolute;
@@ -111,6 +111,11 @@ body {
 .page {
 	flex: 1 1 auto;
 }
+.page__main-block{
+}
+.page__services {
+}
+
 /*-----Basement-------------------------------------------------------*/
 .footer {
 }
@@ -212,3 +217,48 @@ body {
 		opacity: 0.5;
 } ;
 
+/*-----Section-------------------------------------------------------*/
+.services {
+}
+.services__container {
+}
+.services__body {
+	display: flex;
+	margin: 0px -15px;
+}
+.services__column {
+	padding: 0px 15px;
+	flex: 0 1 33.333%;
+}
+.services__item {
+	height: 100%;
+	box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+	background-color: #fff;
+	padding: 35px;
+}
+.item-services {
+}
+.item-services_green {
+	background-color: #0d5c63;
+}
+.item-services_green .item-service__title {
+	background-color: #fff;
+}
+.item-services_green .item-service__text {
+	background-color: #fff;
+}
+.item-services > *:not(:last-child) {
+	margin: 0px 0px 10px 0px;
+}
+.item-services__icon {
+}
+.item-services__title {
+	font-weight: 700;
+	letter-spacing: 0.1px;
+	font-size: 24px;
+	line-height: 133%;
+}
+.item-services__text {
+	color: #737373;
+	line-height: 142%;
+}
